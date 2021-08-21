@@ -1,0 +1,34 @@
+﻿@model MVCQuiz.Models.User
+
+@{
+    // Layout = null;
+}
+
+<form method="post">
+    First Name :
+    <input asp-for="FirstName" />
+    <br />
+
+    Last Name  :
+    <input asp-for="LastName" />
+    <br />
+
+    Email Address :
+    <input asp-for="EmailAddress" />
+    <br />
+
+    Password  :
+    <input asp-for="Password" />
+    <br />
+
+    Active?  :
+    <input asp-for="Active" />
+    <br />
+
+    <input type="submit" value="Add User" /> 
+
+
+
+
+</form>
+
